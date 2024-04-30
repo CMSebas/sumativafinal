@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "rtdb-iot-1af12": {
+      "hosting": {
+        "app": [
+          "rtdb-iot-1af12"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "rtdb-iot-1af12"
+  }
+}

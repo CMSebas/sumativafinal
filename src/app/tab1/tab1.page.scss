@@ -1,0 +1,56 @@
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  
+  
+  #container a {
+    text-decoration: none;
+  }
+  
+  
+  ion-grid {
+    background: linear-gradient(to right, #5B22E8, #FF2362);
+    -webkit-animation: nebulahero 20s infinite linear;
+  }
+  
+  @-webkit-keyframes nebulahero {
+      0% {-webkit-filter: hue-rotate(0deg);}
+      100% {-webkit-filter: hue-rotate(-360deg);}
+  }
+  
+  .atras{
+    background-color: #eee2e2;
+  
+    width: 40%;
+    border: 1px solid #000000;
+    padding-top: 50%;
+    
+  }
+  
+  
+  
+  
+  
+  .adelante{
+    width: 30%; 
+    height: 70%; 
+    
+    position: absolute; 
+    top: 10%; 
+    left: 5%; 
+    margin-top: 5%;
+    
+    
+  }

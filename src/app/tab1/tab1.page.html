@@ -7,11 +7,14 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+    <ion-row *ngFor="let cuarto of ['Banio']">
+      <ion-col size-xs="12" size-md="12" size-lg="12" >
+        <ion-title >Hora del dia</ion-title>
+        <div class="atras">
+          <div class="adelante" [style.background-color]="color"></div>
+      </div>
+      </ion-col>
+    </ion-row>
+      </ion-grid>
 </ion-content>
